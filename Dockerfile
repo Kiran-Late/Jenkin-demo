@@ -20,3 +20,5 @@ WORKDIR /time
 #CMD while true; do date >> ./timestamp.txt; sleep 5; done &
 
 #CMD ["/time/ts5sec.sh >> timestamp &"]
+
+
