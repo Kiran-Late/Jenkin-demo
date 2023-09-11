@@ -13,8 +13,6 @@ RUN chmod a+x /time/ts5sec.sh
 
 WORKDIR /time
 
-#CMD ["/time/ts5sec.sh"]
-
 #CMD ["/time/ts5sec.sh &"]
 
 #CMD while true; do date >> ./timestamp.txt; sleep 5; done &
